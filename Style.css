@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.sticky {
+    position: static;
+    opacity: 100%;
+    width: 100%;
+    background-color: #C26037;
+    padding-bottom: 5px;
+    z-index: 1;
+    align: top;
+    top: 0px;
+    left: 0px;
+    padding-top: 0px;
+    height: 140px;
+}
+.image {
+    display: inline-block;
+    margin-left: 45%;
+	margin-right; 45%;
+    float: left;
+    margin-top: 10px;
+}
+.textlinks {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: COURIER-STD, monospace;
+    font-size: 14pt;
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
+    color: #FFFFFF;
+    font-variant: normal;
+}
+a.nav:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a.nav:visited {
+color: #FFFFFF;
+	text-decoration: none;}
+a.nav:hover {
+color: #924322;
+}
+.center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.header {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-right: 10px;
+	margin-top: 2px;
+  
+}
+.article {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 1000px;
+}
