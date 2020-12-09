@@ -30,8 +30,19 @@
     font-style: normal;
     text-align: right;
     color: #C26037;
-    font-variant: normal;
-}
+	font-variant: normal;}
+
+.links {
+    margin-left: 8px;
+    margin-right: auto;
+    font-family: turnip, serif;
+    font-size: 15pt;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    color: #C26037;
+	font-variant: normal;}
+
 a.nav:link {
     color: #C26037;
     text-decoration: none;
@@ -85,9 +96,11 @@ color: #924322;
 	margin-right: 5%;}
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -95,11 +108,12 @@ color: #924322;
   flex: 25%;
   max-width: 25;
 	margin-right: 8px;
+	margin-left: 8px;
 }
 
 .column img {
   margin-top: 8px;
-  vertical-align: middle;
+  vertical-align: center;
   width: 100%;
 }
 
