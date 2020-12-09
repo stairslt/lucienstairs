@@ -5,7 +5,7 @@
     position: static;
     opacity: 100%;
     width: 100%;
-    background-color: #C26037;
+    background-color: #FFFFFF;
     padding-bottom: 5px;
     z-index: 1;
     align: top;
@@ -24,20 +24,20 @@
 .textlinks {
     margin-left: auto;
     margin-right: auto;
-    font-family: futura, sans-serif;
+    font-family: turnip, serif;
     font-size: 15pt;
-    font-weight: 500;
+    font-weight: 200;
     font-style: normal;
     text-align: right;
-    color: #FFFFFF;
+    color: #C26037;
     font-variant: normal;
 }
 a.nav:link {
-    color: #FFFFFF;
+    color: #C26037;
     text-decoration: none;
 }
 a.nav:visited {
-color: #FFFFFF;
+color: #C26037;
 	text-decoration: none;}
 a.nav:hover {
 color: #924322;
@@ -62,7 +62,7 @@ color: #924322;
     display: inline-block;
     float: right;
     vertical-align: top;
-    margin-right: 20px;
+    margin-right: 6%;
     margin-top: -10px;  
 }
 .words {
@@ -76,4 +76,50 @@ color: #924322;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
+}
+
+
+.container {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25;
+	margin-right: 8px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hover:hover {
+-webkit-filter: brightness(0.8);
+filter: brightness(0.8);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+ Responsive layout - makes the two columns stack on top of each other instead of next to each other 
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
