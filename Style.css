@@ -29,7 +29,7 @@
     font-weight: 200;
     font-style: normal;
     text-align: right;
-    color: #C26037;
+    color: #718EBD;
 	font-variant: normal;}
 
 .links {
@@ -40,28 +40,28 @@
     font-weight: 200;
     font-style: normal;
     text-align: left;
-    color: #C26037;
+    color: #718EBD;
 	font-variant: normal;}
 
 a.nav:link {
-    color: #C26037;
+    color: #718EBD;
     text-decoration: none;
 }
 a.nav:visited {
-color: #C26037;
+color: #718EBD;
 	text-decoration: none;}
 a.nav:hover {
-color: #924322;
+color: #1E4C80;
 }
 a.navalt:link {
-    color: #924322;
+    color: #1E4C80;
     text-decoration: none;
 }
 a.navalt:visited {
-color: #924322;
+color: #1E4C80;
 	text-decoration: none;}
 a.navalt:hover {
-color: #924322;
+color: #1E4C80;
 }
 .center {
     display: inline-block;
@@ -83,9 +83,20 @@ color: #924322;
     font-weight: 200;
     font-style: normal;
     font-size: 15pt;
-    color: #924322;
+    color: #1E4C80;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 50px;
+}
+.diagramcaption {
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: turnip, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15pt;
+    color: #000000;
+    margin-left: 5%;
     margin-top: 50px;
 }
 
@@ -93,7 +104,9 @@ color: #924322;
 .container {
 	width: 90%;
 	margin-left: 5%;
-	margin-right: 5%;}
+	margin-right: 5%;
+margin-top: 5%;}
+
 
 .row {
     display: flex;
