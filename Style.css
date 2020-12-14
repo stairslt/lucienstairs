@@ -26,10 +26,10 @@
     margin-right: auto;
     font-family: turnip, serif;
     font-size: 15pt;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
     text-align: right;
-    color: #718EBD;
+    color: #0F1637;
 	font-variant: normal;}
 
 .links {
@@ -40,28 +40,28 @@
     font-weight: 200;
     font-style: normal;
     text-align: left;
-    color: #718EBD;
+    color: #0F1637;
 	font-variant: normal;}
 
 a.nav:link {
-    color: #718EBD;
+    color: #0F1637;
     text-decoration: none;
 }
 a.nav:visited {
-color: #718EBD;
+color: #0F1637;
 	text-decoration: none;}
 a.nav:hover {
-color: #1E4C80;
+color: #DA3832;
 }
 a.navalt:link {
-    color: #1E4C80;
+    color: #DA3832;
     text-decoration: none;
 }
 a.navalt:visited {
-color: #1E4C80;
+color: #DA3832;
 	text-decoration: none;}
 a.navalt:hover {
-color: #1E4C80;
+color: #DA3832;
 }
 .center {
     display: inline-block;
@@ -84,7 +84,7 @@ color: #1E4C80;
     font-style: normal;
     font-size: 15pt;
 	text-align:center;
-    color: #1E4C80;
+    color: #0F1637;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
@@ -96,7 +96,7 @@ color: #1E4C80;
     font-weight: 200;
     font-style: normal;
     font-size: 15pt;
-    color: #000000;
+    color: #0F1637;
     margin-left: 5%;
 	margin-right: 40%;
     margin-top: 50px;
