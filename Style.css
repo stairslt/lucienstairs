@@ -44,6 +44,7 @@
     color: #0F1637;
 	font-variant: normal;}
 
+
 a.nav:link {
     color: #0F1637;
     text-decoration: none;
@@ -79,7 +80,6 @@ color: #DA3832;
 }
 .words {
     background-color: #FFFFFF;
-    text-align: left;
     font-family: turnip, serif;
     font-weight: 200;
     font-style: normal;
@@ -90,6 +90,35 @@ color: #DA3832;
     margin-right: 20%;
     margin-top: 50px;
 }
+.headertext{ 
+	font-family: turnip, serif;
+    font-size: 24pt;
+	color: #0F1637;
+    font-weight: 400;
+    font-style: normal;
+	text-align: center;
+}
+.articlewords{  background-color: #FFFFFF;
+    text-align: left;
+    font-family: turnip, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12pt;
+    color: #0F1637;}
+.quotation{  background-color: #FFFFFF;
+    text-align: right;
+    font-family: turnip, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12pt;
+    color: #DA3832;}
+.quotationwords{  background-color: #FFFFFF;
+    text-align: left;
+    font-family: turnip, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12pt;
+    color: #DA3832;}
 .diagramcaption {
     background-color: #FFFFFF;
     text-align: left;
@@ -105,9 +134,9 @@ color: #DA3832;
 
 
 .container {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: auto;
+	margin-left: 25%;
+	margin-right: 25%;
 margin-top: 5%;}
 
 
