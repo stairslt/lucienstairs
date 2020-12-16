@@ -132,6 +132,11 @@ color: #DA3832;
     margin-top: 50px;
 }
 
+.imagecontainer{width: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
 
 .container {
 	width: auto;
