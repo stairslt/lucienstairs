@@ -98,13 +98,16 @@ color: #DA3832;
     font-style: normal;
 	text-align: center;
 }
-.articlewords{  background-color: #FFFFFF;
+.articlewords{
+    background-color: #FFFFFF;
     text-align: left;
     font-family: turnip, serif;
     font-weight: 200;
     font-style: normal;
     font-size: 12pt;
-    color: #0F1637;}
+    color: #0F1637;
+    line-height: 30px;
+}
 .quotation{  background-color: #FFFFFF;
     text-align: right;
     font-family: turnip, serif;
@@ -112,13 +115,16 @@ color: #DA3832;
     font-style: normal;
     font-size: 12pt;
     color: #DA3832;}
-.quotationwords{  background-color: #FFFFFF;
+.quotationwords{
+    background-color: #FFFFFF;
     text-align: left;
     font-family: turnip, serif;
     font-weight: 200;
     font-style: normal;
     font-size: 12pt;
-    color: #DA3832;}
+    color: #DA3832;
+    line-height: 30px;
+}
 .diagramcaption {
     background-color: #FFFFFF;
     text-align: left;
