@@ -98,6 +98,14 @@ color: #DA3832;
     font-style: normal;
 	text-align: center;
 }
+.headertextauthor{ 
+	font-family: turnip, serif;
+    font-size: 12pt;
+	color: #0F1637;
+    font-weight: 400;
+    font-style: normal;
+	text-align: center;
+}
 .articlewords{
     background-color: #FFFFFF;
     text-align: left;
