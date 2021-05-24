@@ -46,24 +46,24 @@
 
 
 a.nav:link {
-    color: #0F1637;
+    color: #637CBD;
     text-decoration: none;
 }
 a.nav:visited {
-color: #0F1637;
+color: #637CBD;
 	text-decoration: none;}
 a.nav:hover {
-color: #DA3832;
+color: #57724C;
 }
 a.navalt:link {
-    color: #DA3832;
+    color: #57724C;
     text-decoration: none;
 }
 a.navalt:visited {
-color: #DA3832;
+color: #57724C;
 	text-decoration: none;}
 a.navalt:hover {
-color: #DA3832;
+color: #57724C;
 }
 .center {
     display: inline-block;
@@ -85,7 +85,7 @@ color: #DA3832;
     font-style: normal;
     font-size: 15pt;
 	text-align:center;
-    color: #0F1637;
+    color: #000000;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
@@ -93,7 +93,7 @@ color: #DA3832;
 .headertext{ 
 	font-family: turnip, serif;
     font-size: 24pt;
-	color: #0F1637;
+	color: #57724C;
     font-weight: 400;
     font-style: normal;
 	text-align: center;
@@ -101,7 +101,7 @@ color: #DA3832;
 .headertextauthor{ 
 	font-family: turnip, serif;
     font-size: 12pt;
-	color: #0F1637;
+	color: #57724C;
     font-weight: 400;
     font-style: normal;
 	text-align: center;
@@ -113,7 +113,7 @@ color: #DA3832;
     font-weight: 200;
     font-style: normal;
     font-size: 12pt;
-    color: #0F1637;
+    color: #000000;
     line-height: 30px;
 }
 .quotation{  background-color: #FFFFFF;
@@ -122,7 +122,7 @@ color: #DA3832;
     font-weight: 200;
     font-style: normal;
     font-size: 12pt;
-    color: #DA3832;}
+    color: #637CBD;}
 .quotationwords{
     background-color: #FFFFFF;
     text-align: left;
@@ -130,7 +130,7 @@ color: #DA3832;
     font-weight: 200;
     font-style: normal;
     font-size: 12pt;
-    color: #DA3832;
+    color: #637CBD;
     line-height: 30px;
 }
 .diagramcaption {
@@ -154,8 +154,8 @@ color: #DA3832;
 
 .container {
 	width: auto;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 15%;
+	margin-right: 15%;
 margin-top: 5%;}
 
 
